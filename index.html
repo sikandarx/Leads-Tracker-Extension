@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Varela Round' rel='stylesheet'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1 class="text-white text-center font-weight-heavy">Leads Tracker</h1>
+        <input class="mt-5 mb-2" type="text" id="input-el">
+        <button class="btn btn-primary" id="input-btn">SAVE INPUT</button>
+        <button class="btn btn-primary" id="tab-btn">SAVE TAB</button>
+        <div class="cont my-3">
+            <h4 class="font-weight-heavy primary-color">Your Links:</h4>
+            <hr>
+        <ul id="ul-el" class="text-center">
+        </ul>
+        <button class="btn btn-danger" id="delete-btn">DELETE ALL</button>
+        </div>
+        <div class="confirmation" id="confirmation">
+            <div class="confirmation-content">
+                <h5 class="font-weight-heavy primary-color">Are you sure you want to Delete all your leads?</h5>
+                <div class="d-flex mt-4">
+                    <button class="btn btn-secondary" id="yes">Yes</button>
+                    <button class="btn btn-secondary" id="no">No</button>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
